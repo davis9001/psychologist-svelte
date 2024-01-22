@@ -1,11 +1,19 @@
 <main>
   <!-- Top Navigation -->
-  <nav class="2xl:flex p-4 text-slate-900 z-10 absolute w-full">
-    <div class="flex gap-5 text-white text-xl">
-      <a href="#"><img src="logo.png" alt="Logo to Home" /></a>
-      <a href="#">Services</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
+  <nav
+    class="text-xl flex justify-between items-center p-4 text-slate-900 z-10 absolute w-full"
+  >
+    <!-- Logo on the left -->
+    <div class="flex items-center">
+      <img src="logo.webp" alt="Logo" class="h-8 mr-2" />
+    </div>
+
+    <!-- Navigation items on the right -->
+    <div class="flex items-center space-x-4">
+      <a href="#" class="text-white">Home</a>
+      <a href="#" class="text-white">About</a>
+      <a href="#" class="text-white">Services</a>
+      <a href="#" class="text-white">Contact</a>
     </div>
   </nav>
 
