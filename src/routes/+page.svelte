@@ -1,8 +1,8 @@
 <main>
   <!-- Top Navigation -->
-  <nav class="2xl:flex p-4 text-slate-900 font-bold z-10 absolute w-full">
-    <div class="flex gap-3 text-white">
-      <a href="#">Home</a>
+  <nav class="2xl:flex p-4 text-slate-900 z-10 absolute w-full">
+    <div class="flex gap-5 text-white text-xl">
+      <a href="#"><img src="logo.png" alt="Logo to Home" /></a>
       <a href="#">Services</a>
       <a href="#">About</a>
     </div>
@@ -10,14 +10,14 @@
 
   <!-- Hero Section -->
   <section
-    class="2xl:flex items-center justify-center p-8 pt-36 2xl:min-h-screen overflow-hidden bg-gradient-to-tr from-indigo-500 to-slate-900 text-yellow-100"
+    class="lg:flex items-center justify-center p-8 pt-36 2xl:min-h-screen overflow-hidden bg-gradient-to-tr from-indigo-500 to-slate-900 text-yellow-100"
   >
     <!-- Headshot with rounded corner -->
-    <div class="hero-headshot">
+    <div class="hero-headshot w-1/2">
       <img
         src="main-headshot.jpg"
         alt="Psychiatrist Headshot"
-        class="rounded-tr-[64px] w-2/3 m-12 mx-auto"
+        class="rounded-tr-[64px] w-full lg:w-2/3 mx-auto"
       />
     </div>
 
