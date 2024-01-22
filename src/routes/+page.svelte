@@ -5,12 +5,14 @@
   >
     <!-- Logo on the left -->
     <div class="flex items-center">
-      <img src="logo.webp" alt="Logo" class="h-8 mr-2" />
+      <a href="/" class=""
+        ><img src="logo.webp" alt="Logo" class="h-8 mr-2" />
+      </a>
     </div>
 
     <!-- Navigation items on the right -->
     <div class="flex items-center space-x-4">
-      <a href="#" class="text-white">Home</a>
+      <a href="/" class="text-white">Home</a>
       <a href="#" class="text-white">About</a>
       <a href="#" class="text-white">Services</a>
       <a href="#" class="text-white">Contact</a>
