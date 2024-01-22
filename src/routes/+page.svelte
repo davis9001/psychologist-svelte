@@ -1,12 +1,12 @@
 <main>
   <!-- Top Navigation -->
   <nav
-    class="text-xl flex justify-between items-center p-4 text-slate-900 z-10 absolute w-full"
+    class=" flex justify-between items-center p-4 text-slate-900 z-10 absolute w-full"
   >
     <!-- Logo on the left -->
     <div class="flex items-center">
       <a href="/" class=""
-        ><img src="logo.webp" alt="Logo" class="h-8 mr-2" />
+        ><img src="logo.webp" alt="Logo" class="h-4 lg:h-8 mr-2" />
       </a>
     </div>
 
@@ -70,7 +70,7 @@
     border-radius: 0 3em 0 0;
     width: 222px;
     height: 222px;
-    transform: translate(-50%, -50%);
+    transform: translate(-23%, -23%);
     filter: blur(10px);
     opacity: 0.3;
     content: "";
