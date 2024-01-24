@@ -6,7 +6,7 @@
     <!-- Logo on the left -->
     <div class="flex items-center">
       <a href="/" class=""
-        ><img src="logo.webp" alt="Logo" class="h-4 lg:h-8 mr-2" />
+        ><img src="logo.webp" alt="Logo" class="h-4 lg:h-5 mr-2" />
       </a>
     </div>
 
@@ -24,7 +24,7 @@
     class="lg:flex items-center justify-center p-8 pt-36 2xl:min-h-screen overflow-hidden bg-gradient-to-tr from-indigo-500 to-slate-900 text-yellow-100"
   >
     <!-- Headshot with rounded corner -->
-    <div class="hero-headshot w-1/2">
+    <div class="hero-headshot w-10/12 lg:w-2/3">
       <img
         src="main-headshot.jpg"
         alt="Psychiatrist Headshot"
@@ -34,7 +34,7 @@
 
     <!-- Text on the right -->
     <div class="max-w-2xl">
-      <h1 class="text-3xl 2xl:text-6xl font-bold mb-4">
+      <h1 class="text-3xl 2xl:text-6xl font-bold my-4">
         Dr. Loraine K. Bailey
       </h1>
       <p class="text-2xl">
