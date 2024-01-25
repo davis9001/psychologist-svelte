@@ -57,24 +57,26 @@
   <section class="p-16 pb-32 bg-stone-800 text-white">
     <!-- Services Section -->
     <div class="container max-w-9xl mx-auto">
-      <h2 class="text-3xl lg:text-5xl mb-16">Available Services</h2>
+      <h2 class="text-3xl lg:text-5xl mb-16">Primary Services</h2>
 
       <!-- Service Cards -->
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {#each servicesData as { title, description }, i}
-          <div
-            class="bg-opacity-5 bg-blue-500 p-6 rounded-2xl rounded-tr-[42px]"
-          >
-            <h3
-              class="text-2xl lg:text-3xl font-semibold mb-2 lg:p-6 text-gray-200 text-center"
+        {#each servicesData as { title, description, featured }, i}
+          {#if featured}
+            <div
+              class="bg-opacity-5 bg-blue-500 p-6 rounded-2xl rounded-tr-[42px]"
             >
-              {title}
-            </h3>
-            <p class="text-gray-100 lg:text-2xl lg:p-4">
-              {description}
-            </p>
-            <!-- Add any icon or image related to the service if needed -->
-          </div>
+              <h3
+                class="text-2xl lg:text-3xl font-semibold mb-2 lg:p-6 text-gray-200 text-center"
+              >
+                {title}
+              </h3>
+              <p class="text-gray-100 lg:text-2xl lg:p-4">
+                {description}
+              </p>
+              <!-- Add any icon or image related to the service if needed -->
+            </div>
+          {/if}
         {/each}
       </div>
     </div>
