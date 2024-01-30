@@ -5,19 +5,19 @@
 
 <main>
   <!-- Top Navigation -->
-  <nav
-    class=" flex justify-between items-center p-4 text-slate-900 z-10 absolute w-full bg-white bg-opacity-5"
-  >
-    <div class="container max-w-8xl mx-auto flex justify-between">
+  <nav class="p-4 text-slate-900 z-10 absolute w-full bg-white bg-opacity-5">
+    <div
+      class="container max-w-screen mx-auto lg:max-w-8xl flex justify-between items-center"
+    >
       <!-- Logo on the left -->
-      <div class="flex items-center">
+      <div class="">
         <a href="/" class=""
-          ><img src="logo.webp" alt="Logo" class="h-4 lg:h-5 mr-2" />
+          ><img src="logo.webp" alt="Logo" class="h-4 lg:h-5" />
         </a>
       </div>
 
       <!-- Navigation items on the right -->
-      <div class="flex items-center space-x-4">
+      <div class="flex gap-4 place-self-end">
         <a href="/" class="text-white">Home</a>
         <a href="#" class="text-white">About</a>
         <a href="#" class="text-white">Services</a>
@@ -54,7 +54,7 @@
     </div>
   </section>
 
-  <section class="p-8 lg:p-32 bg-stone-100 text-stone-800">
+  <section class="p-8 lg:p-32 bg-stone-100 text-stone-800 overflow-hidden">
     <div
       class="container max-w-9xl mx-auto lg:grid grid-cols-2 items-center justify-evenly gap-8 place-items-center"
     >
@@ -66,7 +66,7 @@
         </p>
       </div>
       <div
-        class="relative rounded-xl rounded-tr-3xl before:block before:w-full before:h-2/3 before:-z-10 before:-top-8 before:-left-8 before:content-[''] before:absolute before:bg-slate-500 before:rounded-xl before:rounded-tl-3xl before:opacity-[42%] before:blur-xl after:content-[''] z-10 after:block after:h-full after:w-2/3 after:-z-10 after:top-16 after:-right-12 after:absolute after:bg-indigo-700 after:rounded-xl after:rounded-tr-3xl after:opacity-[42%] after:blur-xl"
+        class="relative rounded-xl rounded-tr-3xl max-w-sm lg:max-w-3xl mx-auto before:block before:w-full before:h-2/3 before:-z-10 before:-top-8 before:-left-8 before:content-[''] before:absolute before:bg-slate-500 before:rounded-xl before:rounded-tl-3xl before:opacity-[42%] before:blur-xl after:content-[''] z-10 after:block after:h-full after:w-2/3 after:-z-10 after:top-16 after:-right-12 after:absolute after:bg-indigo-700 after:rounded-xl after:rounded-tr-3xl after:opacity-[42%] after:blur-xl"
       >
         <img
           class="h-full w-full object-cover rounded-xl rounded-tr-3xl"
