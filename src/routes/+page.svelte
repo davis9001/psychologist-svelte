@@ -54,12 +54,12 @@
     </div>
   </section>
 
-  <section class="p-32 bg-stone-100 text-stone-800">
+  <section class="p-8 lg:p-32 bg-stone-100 text-stone-800">
     <div
-      class="container max-w-9xl mx-auto grid grid-cols-2 items-center justify-evenly gap-8 place-items-center"
+      class="container max-w-9xl mx-auto lg:grid grid-cols-2 items-center justify-evenly gap-8 place-items-center"
     >
       <div>
-        <h2 class="text-2xl lg:text-4xl">Get Results That Last</h2>
+        <h2 class="text-3xl lg:text-4xl">Get Results That Last</h2>
         <p class="text-xl my-6">
           Specializing in Dialectical Behavioral Therapy (DBT), a proven method
           that helps individuals develop healthy coping skills.
@@ -83,7 +83,7 @@
   >
     <!-- Services Section -->
     <div class="container max-w-9xl mx-auto">
-      <h2 class="text-2xl lg:text-4xl mb-16">Featured Services</h2>
+      <h2 class="text-3xl lg:text-4xl mb-16">Featured Services</h2>
 
       <!-- Service Cards -->
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

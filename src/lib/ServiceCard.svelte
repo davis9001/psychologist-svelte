@@ -10,7 +10,7 @@
 </script>
 
 <div
-  class="relative flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md mx-auto hover:scale-110 duration-300"
+  class="my-9 relative flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md mx-auto lg:hover:scale-110 duration-300"
 >
   <div
     class="relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl rounded-tr-3xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r from-{from_color} to-{to_color}"
