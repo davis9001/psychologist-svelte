@@ -54,17 +54,19 @@
     </div>
   </section>
 
-  <section class="p-32 bg-white text-stone-700">
+  <section class="p-32 bg-stone-100 text-stone-800">
     <div
       class="container max-w-9xl mx-auto grid grid-cols-2 items-center justify-evenly gap-8 place-items-center"
     >
       <div>
-        <h2 class="text-2xl lg:text-4xl mb-16 text-center">
-          Specializing in Dialectical Behavior Therapy
-        </h2>
+        <h2 class="text-2xl lg:text-4xl">Get Results that Last</h2>
+        <p class="text-xl my-6">
+          Specializing in Dialectical Behavioral Therapy (DBT), a proven method
+          that helps individuals develop healthy coping skills.
+        </p>
       </div>
       <div
-        class="relative before:block before:w-full before:h-2/3 before:-z-10 before:-top-8 before:-left-8 before:absolute before:bg-indigo-500 before:rounded-xl before:rounded-tl-3xl after:content-[''] z-10 after:block after:h-full after:w-2/3 after:-z-10 after:top-16 after:-right-12 after:absolute after:bg-slate-700 after:rounded-xl after:rounded-tr-3xl before:content-[''] bg-black rounded-xl rounded-tr-3xl"
+        class="relative before:block before:w-full before:h-2/3 before:-z-10 before:-top-8 before:-left-8 before:absolute before:bg-slate-500 before:rounded-xl before:rounded-tl-3xl after:content-[''] z-10 after:block after:h-full after:w-2/3 after:-z-10 after:top-16 after:-right-12 after:absolute after:bg-indigo-700 after:rounded-xl after:rounded-tr-3xl before:content-[''] bg-black rounded-xl rounded-tr-3xl"
       >
         <img
           class="h-full w-full object-cover rounded-xl rounded-tr-3xl"
@@ -76,10 +78,10 @@
   </section>
 
   <!-- Featured Services -->
-  <section class="p-16 pb-32 bg-white text-stone-700">
+  <section class="p-16 pb-32 bg-slate-700 text-stone-200">
     <!-- Services Section -->
     <div class="container max-w-9xl mx-auto">
-      <h2 class="text-3xl lg:text-5xl mb-16">Featured Services</h2>
+      <h2 class="text-2xl lg:text-4xl mb-16">Featured Services</h2>
 
       <!-- Service Cards -->
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
