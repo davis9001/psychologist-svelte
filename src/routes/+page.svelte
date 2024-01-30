@@ -38,18 +38,39 @@
         <img
           src="main-headshot.jpg"
           alt="Psychiatrist Headshot"
-          class="rounded-tr-[64px] w-full lg:w-2/3 mx-auto"
+          class="rounded-2xl rounded-tr-[64px] w-full lg:w-2/3 mx-auto"
         />
       </div>
 
       <!-- Text on the right -->
       <div class="max-w-2xl">
-        <h1 class="text-3xl 2xl:text-6xl font-bold my-4">
+        <h1 class="text-4xl 2xl:text-6xl font-bold my-4">
           Dr. Loraine K. Bailey
         </h1>
         <p class="text-2xl">
           Your supportive psychiatrist providing expert mental health care.
         </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="p-32 bg-white text-stone-700">
+    <div
+      class="container max-w-9xl mx-auto grid grid-cols-2 items-center justify-evenly gap-8 place-items-center"
+    >
+      <div>
+        <h2 class="text-2xl lg:text-4xl mb-16 text-center">
+          Specializing in Dialectical Behavior Therapy
+        </h2>
+      </div>
+      <div
+        class="relative before:block before:w-full before:h-2/3 before:-z-10 before:-top-8 before:-left-8 before:absolute before:bg-indigo-500 before:rounded-xl before:rounded-tl-3xl after:content-[''] z-10 after:block after:h-full after:w-2/3 after:-z-10 after:top-16 after:-right-12 after:absolute after:bg-slate-700 after:rounded-xl after:rounded-tr-3xl before:content-[''] bg-black rounded-xl rounded-tr-3xl"
+      >
+        <img
+          class="h-full w-full object-cover rounded-xl rounded-tr-3xl"
+          src="https://loremflickr.com/320/240/therapy"
+          alt=""
+        />
       </div>
     </div>
   </section>
