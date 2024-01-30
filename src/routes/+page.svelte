@@ -54,13 +54,15 @@
     </div>
   </section>
 
-  <section class="p-8 lg:p-32 bg-stone-100 text-stone-800 overflow-hidden">
+  <section
+    class="p-8 py-16 lg:p-32 bg-stone-100 text-stone-800 overflow-hidden"
+  >
     <div
       class="container max-w-9xl mx-auto lg:grid grid-cols-2 items-center justify-evenly gap-8 place-items-center"
     >
       <div>
         <h2 class="text-3xl lg:text-4xl">Get Results That Last</h2>
-        <p class="text-xl my-6">
+        <p class="text-xl my-8 mb-16">
           Specializing in Dialectical Behavioral Therapy (DBT), a proven method
           that helps individuals develop healthy coping skills.
         </p>
