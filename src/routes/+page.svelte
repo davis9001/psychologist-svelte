@@ -1,5 +1,6 @@
 <script>
   import { servicesData } from "../servicesData"
+  import ServiceCard from "../lib/ServiceCard.svelte"
 </script>
 
 <main>
@@ -53,29 +54,26 @@
     </div>
   </section>
 
-  <!-- Standard Content Sections -->
-  <section class="p-16 pb-32 bg-stone-800 text-white">
+  <!-- Featured Services -->
+  <section class="p-16 pb-32 bg-white text-stone-700">
     <!-- Services Section -->
     <div class="container max-w-9xl mx-auto">
-      <h2 class="text-3xl lg:text-5xl mb-16">Primary Services</h2>
+      <h2 class="text-3xl lg:text-5xl mb-16">Featured Services</h2>
 
       <!-- Service Cards -->
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {#each servicesData as { title, description, featured }, i}
+        {#each servicesData as { title, description, featured, image_url, url, button_color, button_text, from_color, to_color }, i}
           {#if featured}
-            <div
-              class="bg-opacity-5 bg-blue-500 p-6 rounded-2xl rounded-tr-[42px]"
-            >
-              <h3
-                class="text-2xl lg:text-3xl font-semibold mb-2 lg:p-6 text-gray-200 text-center"
-              >
-                {title}
-              </h3>
-              <p class="text-gray-100 lg:text-2xl lg:p-4">
-                {description}
-              </p>
-              <!-- Add any icon or image related to the service if needed -->
-            </div>
+            <ServiceCard
+              {title}
+              {description}
+              {image_url}
+              {url}
+              {button_color}
+              {button_text}
+              {from_color}
+              {to_color}
+            />
           {/if}
         {/each}
       </div>
