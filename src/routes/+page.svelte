@@ -6,7 +6,7 @@
 <main>
   <!-- Top Navigation -->
   <nav
-    class=" flex justify-between items-center p-4 text-slate-900 z-10 absolute w-full"
+    class=" flex justify-between items-center p-4 text-slate-900 z-10 absolute w-full bg-white bg-opacity-5"
   >
     <div class="container max-w-8xl mx-auto flex justify-between">
       <!-- Logo on the left -->
@@ -78,7 +78,9 @@
   </section>
 
   <!-- Featured Services -->
-  <section class="p-16 pb-32 bg-slate-700 text-stone-200">
+  <section
+    class="p-16 pb-32 bg-gradient-to-br from-slate-700 to-slate-900 text-stone-200"
+  >
     <!-- Services Section -->
     <div class="container max-w-9xl mx-auto">
       <h2 class="text-2xl lg:text-4xl mb-16">Featured Services</h2>
