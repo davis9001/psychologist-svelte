@@ -21,9 +21,9 @@ export const servicesData: Service[] = [
     description:
       "Tailored one-on-one therapy sessions to address personal challenges and growth.",
     button_text: "Learn More",
-    from_color: "slate-500",
-    to_color: "slate-900",
-    button_color: "slate-600",
+    from_color: "fuchsia-500",
+    to_color: "fuchsia-900",
+    button_color: "fuchsia-600",
   },
   {
     title: "Couples Counseling",
