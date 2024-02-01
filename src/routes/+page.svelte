@@ -31,7 +31,7 @@
       >
         <img
           class="h-full w-full object-cover rounded-xl rounded-tr-3xl"
-          src="https://loremflickr.com/320/240/psychologist"
+          src="/Cool Cat.jpg"
           alt=""
         />
       </div>
@@ -48,12 +48,11 @@
 
       <!-- Service Cards -->
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {#each servicesData as { title, description, featured, image_url, url, button_color, button_text, from_color, to_color }, i}
+        {#each servicesData as { title, description, featured, url, button_color, button_text, from_color, to_color }, i}
           {#if featured}
             <ServiceCard
               {title}
               {description}
-              {image_url}
               {url}
               {button_color}
               {button_text}
