@@ -1,11 +1,15 @@
+<script>
+  export let title = "..."
+</script>
+
 <section
-  class="p-8 pt-36 2xl:min-h-screen overflow-hidden bg-gradient-to-tr from-primary-500 to-secondary-900 text-neutral-100"
+  class="pt-36 overflow-hidden bg-gradient-to-tr from-primary-500 to-secondary-900 text-neutral-100 h-14"
 >
   <div
-    class="container max-w-9xl lg:flex justify-center items-center 2xl:main-h-screen"
+    class="container max-w-9xl lg:flex justify-center items-center -mt-[11rem]"
   >
     <!-- Headshot with rounded corner -->
-    <div class="hero-headshot w-10/12 lg:w-2/3">
+    <div class="hero-headshot w-64 opacity-15">
       <img
         src="main-headshot.jpg"
         alt="Psychiatrist Headshot"
@@ -14,13 +18,12 @@
     </div>
 
     <!-- Text on the right -->
-    <div class="max-w-2xl">
-      <h1 class="text-4xl 2xl:text-6xl font-bold my-4">
-        Dr. Loraine K. Bailey
+    <div class="max-w-2xl w-1/2">
+      <h1
+        class="text-[9rem] opacity-15 text-6xl 2xl:text-[12rem] font-bold my-4 text-center"
+      >
+        {title}
       </h1>
-      <p class="text-2xl">
-        Your supportive psychiatrist providing expert mental health care.
-      </p>
     </div>
   </div>
 </section>
