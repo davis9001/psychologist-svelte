@@ -21,9 +21,9 @@ export const servicesData: Service[] = [
     description:
       "Tailored one-on-one therapy sessions to address personal challenges and growth.",
     button_text: "Learn More",
-    from_color: "fuchsia-500",
-    to_color: "fuchsia-900",
-    button_color: "fuchsia-600",
+    from_color: "accent1-500",
+    to_color: "accent1-900",
+    button_color: "accent1-600",
   },
   {
     title: "Couples Counseling",
@@ -32,9 +32,9 @@ export const servicesData: Service[] = [
     url: "/services/couples-counseling",
     description:
       "Supporting couples in building healthier relationships and effective communication.",
-    from_color: "indigo-500",
-    to_color: "indigo-900",
-    button_color: "indigo-600",
+    from_color: "accent2-500",
+    to_color: "accent2-900",
+    button_color: "accent2-600",
   },
   {
     title: "Workshops",
@@ -43,8 +43,8 @@ export const servicesData: Service[] = [
     url: "/services/mindfulness-workshops",
     description:
       "Learn mindfulness techniques to manage stress, anxiety, and improve well-being.",
-    from_color: "amber-500",
-    to_color: "amber-900",
-    button_color: "amber-600",
+    from_color: "accent3-500",
+    to_color: "accent3-900",
+    button_color: "accent3-600",
   },
 ]
