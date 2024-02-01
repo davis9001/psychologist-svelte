@@ -4,6 +4,7 @@
   import MainNav from "$lib/MainNav.svelte"
   import HeroBig from "$lib/HeroBig.svelte"
   import MainFooter from "$lib/MainFooter.svelte"
+  import Icon from "@iconify/svelte"
 </script>
 
 <main>
@@ -61,6 +62,16 @@
             />
           {/if}
         {/each}
+      </div>
+      <div class="mt-8 flex justify-end">
+        <a
+          href="/services"
+          class=" mt-8 rounded bg-primary-700 px-8 py-4 items-center justify-center flex w-[256px] hover:scale-105 duration-75 shadow-lg hover:shadow-primary-700/40"
+          >View All Services <Icon
+            icon="ic:round-arrow-right"
+            class="inline"
+          /></a
+        >
       </div>
     </div>
   </section>

@@ -66,7 +66,8 @@
 
         <!-- Contact Details and Google Maps -->
         <div>
-          <h2 class="text-2xl font-bold mb-4">Visit Us</h2>
+          <h2 class="text-2xl font-bold mb-4">Location</h2>
+          <p class="text-lg font-medium mb-4">By appointment only</p>
 
           <!-- Address -->
           <div class="mb-4">
@@ -82,7 +83,7 @@
 
           <!-- Google Maps Image (Replace with the actual static map image URL) -->
           <img
-            src="https://via.placeholder.com/600x400"
+            src="/staticmap.jpg"
             alt="Static Google Maps"
             class="w-full h-auto rounded"
           />

@@ -23,14 +23,16 @@
       <h3 class="text-lg font-bold mb-4">Main Links</h3>
       <div class="space-y-2">
         {#each mainLinks as { text, url }}
-          <a href={url} class="block hover:underline">{text}</a>
+          <div>
+            <a href={url} class="hover:underline">{text}</a>
+          </div>
         {/each}
       </div>
     </div>
 
     <div class="w-full md:w-1/2 lg:w-1/4 text-right">
       <h3 class="text-lg font-bold mb-4">Connect With Us</h3>
-      <div class="flex space-x-4 justify-end">
+      <div class="flex gap-9 justify-end">
         {#each socialLinks as { icon, url }}
           <a
             href={url}
