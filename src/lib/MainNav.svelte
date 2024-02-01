@@ -14,7 +14,7 @@
           class="text-secondary-300 inline mr-3"
           width="32"
         />
-        <img src="/logo.webp" alt="Logo" class="h-4 lg:h-5 inline" />
+        <img src="/logo.webp" alt="Logo" class="h-4 lg:h-5 hidden md:inline" />
       </a>
     </div>
 
