@@ -1,28 +1,41 @@
 <script>
   import MainNav from "$lib/MainNav.svelte" // Replace with the actual path to your MainNav component
   import MainFooter from "$lib/MainFooter.svelte" // Replace with the actual path to your MainFooter component
-  import SmallHero from "$lib/SmallHero.svelte"
+  import HeroSmall from "$lib/HeroSmall.svelte"
 </script>
 
 <main>
   <MainNav />
 
-  <SmallHero title="About" />
+  <HeroSmall title="About" />
 
   <section class=" p-8">
     <div class="container mx-auto my-8 max-w-3xl">
-      <h2 class="text-4xl font-bold mb-4">Welcome to Dr. Bailey's Practice</h2>
+      <div class="lg:flex gap-5 flex-row-reverse">
+        <img
+          src="main-headshot.jpg"
+          alt="Psychiatrist Headshot"
+          class="rounded-2xl rounded-tr-[64px] lg:w-1/3 m-5 mx-auto"
+        />
 
-      <div class="mb-8">
-        <p class="text-lg">
-          At Dr. Bailey's practice, we believe in the transformative power of
-          mental health and well-being. Dr. Bailey, a highly experienced and
-          compassionate psychologist, is dedicated to helping individuals
-          navigate life's challenges and find a path towards healing and growth.
-        </p>
+        <div>
+          <h2 class="text-4xl font-extralight mb-4">
+            About Dr. Bailey's Practice
+          </h2>
+
+          <div class="mb-8">
+            <p class="text-lg">
+              At Dr. Bailey's practice, we believe in the transformative power
+              of mental health and well-being. Dr. Bailey, a highly experienced
+              and compassionate psychologist, is dedicated to helping
+              individuals navigate life's challenges and find a path towards
+              healing and growth.
+            </p>
+          </div>
+        </div>
       </div>
 
-      <h2 class="text-4xl font-bold mb-4">Meet Dr. Bailey</h2>
+      <h2 class="text-4xl font-extralight mb-4">Meet Dr. Bailey</h2>
 
       <div class="mb-8">
         <p class="text-lg">
@@ -34,7 +47,7 @@
         </p>
       </div>
 
-      <h2 class="text-4xl font-bold mb-4">Our Approach</h2>
+      <h2 class="text-4xl font-extralight mb-4">Our Approach</h2>
 
       <div class="mb-8">
         <p class="text-lg">
@@ -47,7 +60,7 @@
         </p>
       </div>
 
-      <h2 class="text-4xl font-bold mb-4">Core Values</h2>
+      <h2 class="text-4xl font-extralight mb-4">Core Values</h2>
 
       <div class="mb-8">
         <p class="text-lg">
@@ -59,7 +72,7 @@
         </p>
       </div>
 
-      <h2 class="text-4xl font-bold mb-4">Get Started on Your Journey</h2>
+      <h2 class="text-4xl font-extralight mb-4">Get Started on Your Journey</h2>
 
       <div class="mb-8">
         <p class="text-lg">

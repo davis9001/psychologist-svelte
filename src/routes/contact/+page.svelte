@@ -1,7 +1,7 @@
 <script>
   import MainNav from "$lib/MainNav.svelte" // Replace with the actual path to your MainNav component
   import MainFooter from "$lib/MainFooter.svelte" // Replace with the actual path to your MainFooter component
-  import SmallHero from "$lib/SmallHero.svelte"
+  import HeroSmall from "$lib/HeroSmall.svelte"
 
   let formData = {
     name: "",
@@ -17,7 +17,7 @@
 
 <main>
   <MainNav />
-  <SmallHero title="Contact" />
+  <HeroSmall title="Contact" />
 
   <section class=" p-8 bg-gradient-to-tr from-white to-secondary-100">
     <div class="container max-w-3xl mx-auto">

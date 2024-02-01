@@ -2,7 +2,7 @@
   import { servicesData } from "../servicesData"
   import ServiceCard from "$lib/ServiceCard.svelte"
   import MainNav from "$lib/MainNav.svelte"
-  import HomeHero from "$lib/HomeHero.svelte"
+  import HeroBig from "$lib/HeroBig.svelte"
   import MainFooter from "$lib/MainFooter.svelte"
 </script>
 
@@ -10,7 +10,7 @@
   <!-- Top Navigation -->
   <MainNav />
   <!-- Hero Section -->
-  <HomeHero />
+  <HeroBig />
 
   <section
     class="bg-gradient-to-br from-neutral-50 to-neutral-100 p-8 py-16 lg:p-32 bg-stone-100 text-stone-800 overflow-hidden"

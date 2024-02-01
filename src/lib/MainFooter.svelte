@@ -36,7 +36,7 @@
             href={url}
             target="_blank"
             rel="noopener noreferrer"
-            class="text-white hover:text-gray-400"
+            class="text-white hover:text-primary-400 text-3xl"
           >
             <Icon {icon} />
           </a>
