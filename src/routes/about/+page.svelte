@@ -17,7 +17,7 @@
         >
           <img
             src="main-headshot.jpg"
-            alt="Psychiatrist Headshot"
+            alt="Psychologist Headshot"
             class="rounded-2xl rounded-tr-[64px] mx-auto opacity-75"
           />
         </div>

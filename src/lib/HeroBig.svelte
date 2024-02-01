@@ -11,7 +11,7 @@
       >
         <img
           src="main-headshot.jpg"
-          alt="Psychiatrist Headshot"
+          alt="Psychologist Headshot"
           class="rounded-2xl rounded-tr-[64px] opacity-80"
         />
       </div>
@@ -23,7 +23,7 @@
         Dr. Loraine K. Bailey
       </h1>
       <p class="text-2xl">
-        Your supportive psychiatrist providing expert mental health care.
+        Your supportive psychologist providing expert mental health care.
       </p>
     </div>
   </div>
