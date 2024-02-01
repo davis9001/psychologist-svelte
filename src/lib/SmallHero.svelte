@@ -9,13 +9,6 @@
     class="container max-w-9xl lg:flex justify-center items-center -mt-[11rem]"
   >
     <!-- Headshot with rounded corner -->
-    <div class="hero-headshot w-64 opacity-15">
-      <img
-        src="main-headshot.jpg"
-        alt="Psychiatrist Headshot"
-        class="rounded-2xl rounded-tr-[64px] w-full lg:w-2/3 mx-auto"
-      />
-    </div>
 
     <!-- Text on the right -->
     <div class="max-w-2xl w-1/2">
