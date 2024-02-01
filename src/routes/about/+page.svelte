@@ -13,7 +13,7 @@
     <div class="container mx-auto my-8 max-w-3xl">
       <div class="lg:flex gap-5 flex-row-reverse">
         <div
-          class="headshot-accented bg-gradient-to-tr from-primary-500 to-secondary-900 rounded-tr-[64px] rounded-2xl"
+          class="headshot-accented bg-gradient-to-tr from-primary-500 to-secondary-900 rounded-tr-[64px] rounded-2xl w-2/3 md:w-full mx-auto mb-12"
         >
           <img
             src="main-headshot.jpg"
