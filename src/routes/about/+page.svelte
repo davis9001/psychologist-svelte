@@ -4,7 +4,7 @@
   import HeroSmall from "$lib/HeroSmall.svelte"
 </script>
 
-<main>
+<main class="overflow-hidden">
   <MainNav />
 
   <HeroSmall title="About" />
@@ -12,11 +12,15 @@
   <section class=" p-8">
     <div class="container mx-auto my-8 max-w-3xl">
       <div class="lg:flex gap-5 flex-row-reverse">
-        <img
-          src="main-headshot.jpg"
-          alt="Psychiatrist Headshot"
-          class="rounded-2xl rounded-tr-[64px] lg:w-1/3 m-5 mx-auto"
-        />
+        <div
+          class="headshot-accented bg-gradient-to-tr from-primary-500 to-secondary-900 rounded-tr-[64px] rounded-2xl"
+        >
+          <img
+            src="main-headshot.jpg"
+            alt="Psychiatrist Headshot"
+            class="rounded-2xl rounded-tr-[64px] mx-auto opacity-75"
+          />
+        </div>
 
         <div>
           <h2 class="text-4xl font-extralight mb-4">
@@ -89,3 +93,33 @@
 
   <MainFooter />
 </main>
+
+<style lang="scss">
+  .headshot-accented {
+    position: relative;
+    z-index: 1;
+  }
+  .headshot-accented::before,
+  .headshot-accented::after {
+    @apply bg-primary-400;
+    border-radius: 0 3em 0 0;
+    width: 222px;
+    height: 222px;
+    transform: translate(-23%, -23%);
+    filter: blur(10px);
+    opacity: 0.3;
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+  }
+  .headshot-accented::after {
+    border-radius: 0 9em 0 0;
+    filter: blur(20px);
+    opacity: 0.2;
+    width: 333px;
+    height: 333px;
+    left: calc(100% + 1em);
+    top: calc(100% + 1em);
+  }
+</style>

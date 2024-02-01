@@ -5,12 +5,16 @@
     class="container max-w-9xl lg:flex justify-center items-center 2xl:main-h-screen"
   >
     <!-- Headshot with rounded corner -->
-    <div class="hero-headshot w-10/12 lg:w-2/3">
-      <img
-        src="main-headshot.jpg"
-        alt="Psychiatrist Headshot"
-        class="rounded-2xl rounded-tr-[64px] w-full lg:w-2/3 mx-auto"
-      />
+    <div class="">
+      <div
+        class="hero-headshot w-10/12 lg:w-2/3 bg-gradient-to-tr from-primary-500 to-secondary-900 mx-auto rounded-2xl rounded-tr-[64px]"
+      >
+        <img
+          src="main-headshot.jpg"
+          alt="Psychiatrist Headshot"
+          class="rounded-2xl rounded-tr-[64px] opacity-80"
+        />
+      </div>
     </div>
 
     <!-- Text on the right -->

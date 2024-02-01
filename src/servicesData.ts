@@ -3,7 +3,6 @@
 type Service = {
   title: string
   featured: boolean
-  image_url: string
   url?: string
   description: string
   button_text?: string
@@ -16,8 +15,7 @@ export const servicesData: Service[] = [
   {
     title: "Individual Therapy",
     featured: true,
-    image_url: "https://loremflickr.com/320/240/person",
-    url: "/services/individual-therapy",
+    url: "/services/dialectical-behavior-therapy",
     description:
       "Tailored one-on-one therapy sessions to address personal challenges and growth.",
     button_text: "Learn More",
@@ -28,8 +26,7 @@ export const servicesData: Service[] = [
   {
     title: "Couples Counseling",
     featured: true,
-    image_url: "https://loremflickr.com/320/240/couples",
-    url: "/services/couples-counseling",
+    url: "/services/dialectical-behavior-therapy",
     description:
       "Supporting couples in building healthier relationships and effective communication.",
     from_color: "accent2-500",
@@ -39,8 +36,7 @@ export const servicesData: Service[] = [
   {
     title: "Workshops",
     featured: true,
-    image_url: "https://loremflickr.com/320/240/workshop",
-    url: "/services/mindfulness-workshops",
+    url: "/services/dialectical-behavior-therapy",
     description:
       "Learn mindfulness techniques to manage stress, anxiety, and improve well-being.",
     from_color: "accent3-500",
@@ -50,8 +46,7 @@ export const servicesData: Service[] = [
   {
     title: "Relationship Coaching",
     featured: false,
-    image_url: "https://loremflickr.com/320/240/relationship",
-    url: "/services/relationship-coaching",
+    url: "/services/dialectical-behavior-therapy",
     description:
       "Enhance your relationships and communication through expert coaching.",
     from_color: "teal-500",
@@ -61,8 +56,7 @@ export const servicesData: Service[] = [
   {
     title: "Mindfulness Workshops",
     featured: false,
-    image_url: "https://loremflickr.com/320/240/mindfulness",
-    url: "/services/mindfulness-workshops",
+    url: "/services/dialectical-behavior-therapy",
     description:
       "Learn mindfulness techniques to manage stress, anxiety, and improve well-being.",
     from_color: "blue-500",
@@ -72,8 +66,7 @@ export const servicesData: Service[] = [
   {
     title: "Career Counseling",
     featured: false,
-    image_url: "https://loremflickr.com/320/240/career",
-    url: "/services/career-counseling",
+    url: "/services/dialectical-behavior-therapy",
     description:
       "Navigate your career path with expert guidance and counseling.",
     from_color: "indigo-500",
@@ -83,8 +76,7 @@ export const servicesData: Service[] = [
   {
     title: "Group Therapy",
     featured: false,
-    image_url: "https://loremflickr.com/320/240/group-therapy",
-    url: "/services/group-therapy",
+    url: "/services/dialectical-behavior-therapy",
     description:
       "Join supportive group sessions to connect with others and share experiences.",
     from_color: "pink-500",
@@ -94,8 +86,7 @@ export const servicesData: Service[] = [
   {
     title: "Stress Management",
     featured: false,
-    image_url: "https://loremflickr.com/320/240/stress-management",
-    url: "/services/stress-management",
+    url: "/services/dialectical-behavior-therapy",
     description:
       "Develop effective strategies to cope with and reduce stress in your life.",
     from_color: "red-500",
@@ -105,8 +96,7 @@ export const servicesData: Service[] = [
   {
     title: "Parenting Support",
     featured: false,
-    image_url: "https://loremflickr.com/320/240/parenting-support",
-    url: "/services/parenting-support",
+    url: "/services/dialectical-behavior-therapy",
     description:
       "Guidance and support for parents to navigate the challenges of raising children.",
     from_color: "yellow-500",

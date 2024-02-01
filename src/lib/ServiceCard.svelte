@@ -2,7 +2,6 @@
   export let title = ""
   export let description = ""
   export let url = ""
-  export let image_url = "https://loremflickr.com/320/240/dog"
   export let from_color = "blue-500"
   export let to_color = "blue-900"
   export let button_color = "blue-800"
@@ -15,7 +14,11 @@
   <div
     class="relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl rounded-tr-3xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r from-{from_color} to-{to_color}"
   >
-    <img src={image_url} alt="" class="h-full w-full object-cover opacity-50" />
+    <img
+      src={"/service/" + title + ".jpg"}
+      alt=""
+      class="h-full w-full object-cover opacity-50"
+    />
   </div>
   <div class="p-6">
     <h5 class="mb-2 text-xl font-semibold leading-snug tracking-normal">

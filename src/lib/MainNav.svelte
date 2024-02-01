@@ -5,7 +5,7 @@
     <!-- Logo on the left -->
     <div class="">
       <a href="/" class=""
-        ><img src="logo.webp" alt="Logo" class="h-4 lg:h-5" />
+        ><img src="/logo.webp" alt="Logo" class="h-4 lg:h-5" />
       </a>
     </div>
 

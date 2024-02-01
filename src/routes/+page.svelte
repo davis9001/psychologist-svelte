@@ -31,7 +31,7 @@
       >
         <img
           class="h-full w-full object-cover rounded-xl rounded-tr-3xl"
-          src="https://loremflickr.com/320/240/therapy"
+          src="https://loremflickr.com/320/240/psychologist"
           alt=""
         />
       </div>
